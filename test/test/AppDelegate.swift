@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
              Thread.sleep(forTimeInterval: 3) // pause 2 sec before main storybord shows
+        UITabBar.appearance().tintColor = UIColor.orange;
         return true
     }
 

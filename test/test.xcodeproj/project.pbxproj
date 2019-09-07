@@ -11,11 +11,14 @@
 		95AC227E2322885C004B47F7 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AC227C2322885C004B47F7 /* Live.storyboard */; };
 		95AC2280232288A1004B47F7 /* Column.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AC227F232288A1004B47F7 /* Column.storyboard */; };
 		95AC22852322891F004B47F7 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AC22842322891F004B47F7 /* User.storyboard */; };
+		95AC2287232291A0004B47F7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC2286232291A0004B47F7 /* MainViewController.swift */; };
 		95B728F0231FDBAB00697F12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B728EF231FDBAB00697F12 /* AppDelegate.swift */; };
 		95B728F2231FDBAB00697F12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B728F1231FDBAB00697F12 /* ViewController.swift */; };
 		95B728F5231FDBAB00697F12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B728F3231FDBAB00697F12 /* Main.storyboard */; };
 		95B728F7231FDBAB00697F12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B728F6231FDBAB00697F12 /* Assets.xcassets */; };
 		95B728FA231FDBAB00697F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B728F8231FDBAB00697F12 /* LaunchScreen.storyboard */; };
+		95C987772323AC6800EAF522 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C987762323AC6800EAF522 /* HomeViewController.swift */; };
+		95C987A32323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C987A22323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +27,15 @@
 		95AC227D2322885C004B47F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = test/Classes/Main/en.lproj/Live.storyboard; sourceTree = "<group>"; };
 		95AC227F232288A1004B47F7 /* Column.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Column.storyboard; sourceTree = "<group>"; };
 		95AC22842322891F004B47F7 /* User.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = User.storyboard; sourceTree = "<group>"; };
+		95AC2286232291A0004B47F7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		95B728EC231FDBAB00697F12 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B728EF231FDBAB00697F12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B728F1231FDBAB00697F12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		95B728F6231FDBAB00697F12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B728F9231FDBAB00697F12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B728FB231FDBAB00697F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C987762323AC6800EAF522 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; };
+		95C987A22323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBaraaButtonItem-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,11 +65,9 @@
 		95AC226E23221102004B47F7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				95B728F3231FDBAB00697F12 /* Main.storyboard */,
-				95AC227A23228842004B47F7 /* Home.storyboard */,
-				95AC227C2322885C004B47F7 /* Live.storyboard */,
-				95AC227F232288A1004B47F7 /* Column.storyboard */,
-				95AC22842322891F004B47F7 /* User.storyboard */,
+				95C987752323ABFF00EAF522 /* Model */,
+				95C987732323ABFF00EAF522 /* View */,
+				95C987742323ABFF00EAF522 /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -71,6 +75,11 @@
 		95AC226F2322110D004B47F7 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				95C987722323ABA300EAF522 /* Model */,
+				95C987702323ABA300EAF522 /* View */,
+				95C987712323ABA300EAF522 /* Controller */,
+				95AC227A23228842004B47F7 /* Home.storyboard */,
+				95C987762323AC6800EAF522 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -78,6 +87,7 @@
 		95AC227023221124004B47F7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				95C987A12323B17D00EAF522 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -85,6 +95,7 @@
 		95AC227123221128004B47F7 /* profile */ = {
 			isa = PBXGroup;
 			children = (
+				95AC22842322891F004B47F7 /* User.storyboard */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -92,6 +103,7 @@
 		95AC22722322112B004B47F7 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				95AC227F232288A1004B47F7 /* Column.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -99,6 +111,7 @@
 		95AC227323221131004B47F7 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				95AC227C2322885C004B47F7 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -130,6 +143,58 @@
 				95B728FB231FDBAB00697F12 /* Info.plist */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		95C987702323ABA300EAF522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95C987712323ABA300EAF522 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95C987722323ABA300EAF522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95C987732323ABFF00EAF522 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95C987742323ABFF00EAF522 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95B728F3231FDBAB00697F12 /* Main.storyboard */,
+				95AC2286232291A0004B47F7 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95C987752323ABFF00EAF522 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95C987A12323B17D00EAF522 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				95C987A22323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +272,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95AC2287232291A0004B47F7 /* MainViewController.swift in Sources */,
 				95B728F2231FDBAB00697F12 /* ViewController.swift in Sources */,
 				95B728F0231FDBAB00697F12 /* AppDelegate.swift in Sources */,
+				95C987772323AC6800EAF522 /* HomeViewController.swift in Sources */,
+				95C987A32323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +433,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -383,6 +452,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

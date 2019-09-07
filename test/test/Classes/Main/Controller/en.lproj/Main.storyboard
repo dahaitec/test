@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="7h6-CE-d74">
             <objects>
-                <tabBarController id="9JO-Ob-9qi" sceneMemberID="viewController">
+                <tabBarController id="9JO-Ob-9qi" customClass="MainViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I6w-fs-odw">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -33,11 +33,11 @@
         <scene sceneID="BEC-vW-Zsz">
             <objects>
                 <viewControllerPlaceholder storyboardName="Home" id="OPv-eW-omg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="qyw-9O-i09"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="btn_home_normal" id="qyw-9O-i09"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kez-fr-31P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="40.579710144927539" y="-624.10714285714278"/>
+            <point key="canvasLocation" x="197" y="-452"/>
         </scene>
         <!--Live-->
         <scene sceneID="3eD-UH-6EH">
@@ -47,7 +47,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mq3-IN-Jp6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="41" y="23"/>
+            <point key="canvasLocation" x="204" y="-342"/>
         </scene>
         <!--Column-->
         <scene sceneID="r7U-IF-WTD">
@@ -57,17 +57,21 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7mV-n6-TPZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="39" y="676"/>
+            <point key="canvasLocation" x="220" y="-226"/>
         </scene>
         <!--User-->
         <scene sceneID="ajz-N7-i88">
             <objects>
                 <viewControllerPlaceholder storyboardName="User" id="lJM-NC-o7c" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="voQ-HZ-Pa7"/>
+                    <tabBarItem key="tabBarItem" title="Item" image="btn_user_normal" id="voQ-HZ-Pa7"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ry-ma-ZiX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="46" y="1378"/>
+            <point key="canvasLocation" x="233" y="-119"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="btn_home_normal" width="24" height="24"/>
+        <image name="btn_user_normal" width="24" height="24"/>
+    </resources>
 </document>
