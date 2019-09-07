@@ -19,6 +19,7 @@
 		95B728FA231FDBAB00697F12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B728F8231FDBAB00697F12 /* LaunchScreen.storyboard */; };
 		95C987772323AC6800EAF522 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C987762323AC6800EAF522 /* HomeViewController.swift */; };
 		95C987A32323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C987A22323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift */; };
+		95C987A52323D08000EAF522 /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C987A42323D08000EAF522 /* PageTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		95B728FB231FDBAB00697F12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95C987762323AC6800EAF522 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controller/HomeViewController.swift; sourceTree = "<group>"; };
 		95C987A22323B1D300EAF522 /* UIBaraaButtonItem-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBaraaButtonItem-Extension.swift"; sourceTree = "<group>"; };
+		95C987A42323D08000EAF522 /* PageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; wrapsLines = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +171,7 @@
 		95C987732323ABFF00EAF522 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				95C987A42323D08000EAF522 /* PageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95C987A52323D08000EAF522 /* PageTitleView.swift in Sources */,
 				95AC2287232291A0004B47F7 /* MainViewController.swift in Sources */,
 				95B728F2231FDBAB00697F12 /* ViewController.swift in Sources */,
 				95B728F0231FDBAB00697F12 /* AppDelegate.swift in Sources */,
